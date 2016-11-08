@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.welcome-container {
+	width: 1180px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+}
+
+.welcome-img {
+	position: absolute;
+	left: 60px
+}
+
+.welcome-inner img {
+	position: absolute;
+	left: 80px;
+	padding-top: 70px;
+	height: 443px;
+	width: 600px
+}
