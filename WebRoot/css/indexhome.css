@@ -1,0 +1,162 @@
+    body {
+        
+            color: #5a5a5a;
+        }
+
+       /* 简介 */
+
+        .summary {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .summary .col-md-4 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+       
+        /* 特性 */
+
+        .feature-divider {
+            margin: 10px 0;
+        }
+
+        .feature {
+            padding: 30px 0;
+        }
+
+        .feature-heading {
+            font-size: 30px;
+            font-family:'微软雅黑', 'Microsoft YaHei';
+            color: #424242;
+        }
+
+        .feature-heading .text-muted {
+            font-size: 20px;
+        }
+
+        /* 响应式布局 */
+
+        @media (max-width: 768px) {
+
+            .summary {
+                padding-right: 3px;
+                padding-left: 3px;
+            }
+
+            .carousel {
+                height: 300px;
+                margin-bottom: 30px;
+            }
+
+            .carousel .item {
+                height: 300px;
+            }
+
+            .carousel img {
+                min-height: 300px;
+            }
+
+            .carousel-caption p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+
+            .feature-heading {
+                font-size: 34px;
+            }
+
+            .feature-heading .text-muted {
+                font-size: 22px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .feature-heading {
+                margin-top: 120px;
+            }
+        }
+       .newtitle{
+        width: 1240px;
+        margin: 0 auto;
+        clear: both;
+        /*padding-top: 0px;*/
+        }
+        .newtitle p {
+       text-align: center;
+       line-height: 64px;
+       font-size: 22px;
+       letter-spacing: 1px
+    }
+    .tab-firefox p{
+       font-family:'微软雅黑', 'Microsoft YaHei'
+    }
+   .imger:hover {
+  width: 250px;
+  height: 250px;
+  background-color: #e0e0e0;
+  border: transparent;
+  /* for IE */
+  filter:alpha(opacity=40);
+  /* CSS3 standard */
+  opacity:0.8;
+    }
+
+
+    /*varity页面css*/
+    .varietyfloral
+    {   
+        height:40px;
+        margin-bottom:20px;
+    }
+    .container varity
+    {
+        height:auto;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    .product-name {
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/*---商品列表---*/
+.product_name span {
+    margin: 0px 10px;
+    display: block;
+    text-align: left;
+    line-height: 19px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+ .brief:hover {
+  background-color: #e0e0e0;
+  border: transparent;
+  /* for IE */
+  filter:alpha(opacity=40);
+  /* CSS3 standard */
+  opacity:0.8;
+    }
+    .intro
+    {margin:20px;
+    font-size:14px;
+    line-height:20px;
+    font-weight:bold;
+    text-align:center;
+    color:#000;   
+    line-height: 30px 
+    }
+    .f13
+    {font-size:14px;
+  
+    }
+    .f14
+    {font-family: Georgia;
+    }
+    .order {
+    width: 962px;
+    margin: 0 auto 30px;
+    min-height: 500px;
+}
